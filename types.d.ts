@@ -1,7 +1,9 @@
 type ProjectEntry = {
     id: string,
     name: string,
-    type: string,
     date: string,
+    type: string,
     link: string,
+    status: string,
+    description: string,
 }

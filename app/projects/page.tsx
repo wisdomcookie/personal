@@ -1,11 +1,11 @@
 import React from 'react'
+import Projects from '../components/Projects'
+
 
 export default function page() {
   return (
-    <div>
-      <h1>
-        Stuff I&apos;ve made
-      </h1>
-    </div>
+    <main>
+      <Projects/>
+    </main>
   )
 }
