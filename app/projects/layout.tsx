@@ -7,7 +7,6 @@ export default function ProjectsLayout({
   }) {
   return (
     <>
-      <nav>Projects NavBar</nav>
       <main>
         {children}
       </main>

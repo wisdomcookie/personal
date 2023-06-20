@@ -21,7 +21,7 @@ export default function ProjectItem({ project }: Props) {
     linkIcon = <FaLink/>;
   }
   return (
-    <li className="mt-4 p-4 text-white/90 bg-slate-600 rounded">
+    <li className="mt-5 p-4 text-white/90 bg-slate-600 rounded">
       <h6 className='mb-1 font-bold text-xl'>
         {name}
       </h6>
