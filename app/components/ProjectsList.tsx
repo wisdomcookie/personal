@@ -18,7 +18,7 @@ export default function ProjectsList({ projects }: Props) {
       <h2 className='text-4xl font-bold text-white/90'>
         Projects
       </h2>
-      <p className='mt-3 text-xl text-white/90'>Just some stuff I made, don&apos;t pay too much attention</p>
+      <p className='mt-3 text-xl text-white/90'>Stuff I&apos;ve worked on</p>
       <div className='mt-3'>
         <button 
           onClick={() => setSelectedProjectType('code')}
