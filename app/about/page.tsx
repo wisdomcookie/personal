@@ -17,8 +17,7 @@ export default function About() {
           <li>I tried (and failed) to publish a novel in 8th grade.</li>
           <li>I used to know how to play guitar</li>
         </ul>
-
-        <p className='mt-4'>You may want my <a href="" className='font-bold'>Resume</a>, <a href="" className='font-bold'>LinkedIn</a> or <a href="" className='font-bold'>GitHub</a>.<br/>
+        <p className='mt-6'>
         I don&apos;t really know what else you want to know so here are some assorted favorites:
         </p>
         <ul className='mt-3 space-y-1'>

@@ -10,6 +10,7 @@ type Props = {
 
 export default function ProjectsList({ projects }: Props) {
   
+  // Projects currently are either code or writing, only one is displayed at a time
   const [selectedProjectType, setSelectedProjectType] = useState('code');
 
   return (

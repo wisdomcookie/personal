@@ -8,13 +8,14 @@ import { FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
 export default function ContactPage() {
   const [textInput, setTextInput] = useState(' ');
 
+  // Controlled component
   const handleInputChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setTextInput(event.target.value);
   };
-
+  
+  // Writes from text input to a firebase database
   const handleSubmit = () => {
     firestoreWrite(textInput);
-    console.log(textInput);
     // Reset the text input
     setTextInput('');
   }
