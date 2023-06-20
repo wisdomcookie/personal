@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## React JS Personal Website
 
-## Getting Started
+## Description
 
-First, run the development server:
+This is my personal website, hosted at https://nathandinht.com. Built with typescript and React.js on the Next.js framework, styled with Tailwind css. Mostly server-side rendered, deployed on Vercel. Feel free to use as a template.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Usage as a template
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you would like to use this, first make sure you have the latest version of NodeJS (https://nodejs.org/en/download/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Fork and download this repo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
 
-## Learn More
+### 2. Install dependencies and run
 
-To learn more about Next.js, take a look at the following resources:
+Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `npm install` to install dependencies. Following this, run `npm run dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running). Note that I'm using my own authenticated firestore database to store text submitted on the contact page, so that wouldn't work for you unless you want to set up your own (https://firebase.google.com/docs/firestore)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Customize the data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Change the existing content to match your needs. If you have the site running as described above, you should see these changes reflected on save. Project data is stored in project-data/ as markdown, images are in public, other page data is hard-coded.
 
-## Deploy on Vercel
+### 4. Deploy and enjoy your new website
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I'm deploying the site to Vercel, by the creators of NextJS. Deploying the site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your website. You don't have to use Vercel, check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. Congratulations!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project Created & Maintained By
+
+### Nathan Dinh
