@@ -1,19 +1,19 @@
 'use client'
 
 import React, { useState } from 'react'
-import { getSortedProjectData } from '@/lib/project-data';
+import { getSortedProjectData } from '@/lib/projectData';
 import ProjectItem from './ProjectItem';
 
 type Props = {
   projects: ProjectEntry[]
 }
 
-export default function Projects({ projects }: Props) {
+export default function ProjectsList({ projects }: Props) {
   
   const [selectedProjectType, setSelectedProjectType] = useState('code');
 
   return (
-    <section className='py-6 mx-auto max-w-4xl'>
+    <section className='py-10 mx-auto max-w-3xl'>
       <h2 className='text-4xl font-bold text-white/90'>
         Projects
       </h2>

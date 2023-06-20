@@ -1,15 +1,15 @@
 import React from 'react'
-import Projects from '../components/Projects'
-import { getSortedProjectData } from '@/lib/project-data'
+import ProjectsList from '../components/ProjectsList'
+import { getSortedProjectData } from '@/lib/projectData'
 
 
-export default async function page() {
+export default async function Projects() {
   
   const projects = await getSortedProjectData();
 
   return (
     <main>
-      <Projects projects={projects}/>
+      <ProjectsList projects={projects}/>
     </main>
   )
 }

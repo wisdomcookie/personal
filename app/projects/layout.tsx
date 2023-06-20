@@ -6,10 +6,9 @@ export default function ProjectsLayout({
     children: React.ReactNode
   }) {
   return (
-    <>
-      <main>
-        {children}
-      </main>
-    </>
+    <main>
+      {children}
+    </main>
+
   )
 }
