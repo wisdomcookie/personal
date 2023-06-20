@@ -21,6 +21,7 @@ export async function getSortedProjectData() {
     // Parse metadata
     const matterResult = matter(fileContents);
 
+    // Convert markdown to html for render
     const processedContent = await remark().use(html).process(matterResult.content);
     const contentHtml = processedContent.toString();
 
@@ -38,7 +39,8 @@ export async function getSortedProjectData() {
   });
 
   const allProjects = await Promise.all(allProjectsData);
-
+ 
+  // Sort projects by newest to oldest
   return allProjects.sort((a, b) => a.date < b.date ? 1: -1);
 
 }

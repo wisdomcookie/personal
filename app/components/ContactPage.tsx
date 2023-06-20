@@ -1,5 +1,6 @@
 'use client'
 
+import firestoreWrite from '@/lib/firestoreWrite';
 import React, { useState, ChangeEvent } from 'react'
 import { FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
 
@@ -12,6 +13,7 @@ export default function ContactPage() {
   };
 
   const handleSubmit = () => {
+    firestoreWrite(textInput);
     console.log(textInput);
     // Reset the text input
     setTextInput('');
