@@ -1,4 +1,5 @@
 import React from 'react'
+import SantaPic from './SantaPic'
 
 export default function AboutPage() {
   return (
@@ -36,6 +37,7 @@ export default function AboutPage() {
             have a picture of the cylindrical Santa Claus my sister gave me instead:
         </li>
       </ul>
+      <SantaPic/>
       
     </section>
   )

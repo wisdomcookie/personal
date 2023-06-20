@@ -6,13 +6,13 @@ export default function Navbar() {
   return (
     <nav className="bg-slate-600 p-4 sticky top-0 drop-shadow-xl z-10">
       <div className="flex items-center justify-between">
-        <div className='flex items-center space-x-4'>
-          <ProfilePic/>
-          <Link href="/" className='text-white/90 no-underline hover:text-white'>
+        <div className='flex items-center space-x-4 lg:ml-20'>
+          
+          <Link href="/" className='text-white/90 no-underline hover:text-white font-bold text-xl'>
             Nathan Dinh
           </Link>
         </div>
-        <div className='flex items-center space-x-4'>
+        <div className='flex items-center space-x-4 lg:mr-20 text-xl'>
           <Link href="/about" className='text-white/90 hover:text-white no-underline'>
                 About
           </Link>

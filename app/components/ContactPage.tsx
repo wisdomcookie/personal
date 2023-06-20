@@ -20,7 +20,7 @@ export default function ContactPage() {
   return (
     <section className='py-10 mx-auto max-w-3xl text-white/90'>
       <h2 className='text-4xl font-bold'>
-          Contact Me!
+          Contact Me
       </h2>
       <p className='mt-6 text-xl'>
           You can find me at:
