@@ -10,8 +10,8 @@ export default function About() {
 
         <ul className='mt-3 list-disc px-4'>
           <li className=''>Junior Computer Science student at Lafayette College (Easton, PA; USA)</li>
-          <li>Aspiring software engineer (making stuff is fun and debugging gives me a dopamine rush).</li>
-          <li>I like reading and video games and cooking</li>
+          <li>Aspiring software engineer (making stuff is fun and bugfixing gives me a dopamine rush)</li>
+          <li>Other than coding, I  also like reading and cooking and video games</li>
           <li>I also work out, mostly to stay sane</li>
           <li>Non-CS academic interests include physics and policymaking</li>
           <li>I tried (and failed) to publish a novel in 8th grade.</li>

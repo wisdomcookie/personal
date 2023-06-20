@@ -23,12 +23,12 @@ export default function ProjectsList({ projects }: Props) {
         <button 
           onClick={() => setSelectedProjectType('code')}
           className={`px-4 py-2 rounded ${
-            selectedProjectType === 'code' ? 'bg-slate-600 text-white/90 transform scale-105 font-bold' : 'bg-white/90 text-slate-600'}`}
+            selectedProjectType === 'code' ? 'bg-white/90 text-slate-600 transform scale-105 font-bold' : 'bg-slate-600 text-white/90'}`}
         >Code</button>
         <button 
           onClick={() => setSelectedProjectType('writing')}
           className={`px-4 py-2 rounded ${
-            selectedProjectType === 'writing' ? 'bg-slate-600 text-white/90 transform scale-105 font-bold' : 'bg-white/90 text-slate-600'}`}
+            selectedProjectType === 'writing' ? 'bg-white/90 text-slate-600 transform scale-105 font-bold' : 'bg-slate-600 text-white/90'}`}
         >Writing</button>
       </div>
       <ul className='mt-5 w-full'>
