@@ -38,7 +38,6 @@ export default function About() {
             <span className="font-bold">Movie</span>: Interstellar. Or Stuck in Love. Or Set it Up. I like a lot of rom-coms.
           </li>
         </ul>
-        <SantaPic/>
       
       </section>
     </main>
