@@ -8,10 +8,10 @@ export default function About() {
       <section className='py-10 mx-auto max-w-3xl text-white/90'>
         <h2 className='text-4xl font-bold'>About Me</h2>
 
-        <ul className='mt-3 list-disc px-4'>
+        <ul className='mt-3 list-disc px-8 py-3 bg-slate-600 rounded'>
           <li className=''>Junior Computer Science student at Lafayette College (Easton, PA; USA)</li>
-          <li>Aspiring software engineer (making stuff is fun and bugfixing gives me a dopamine rush)</li>
-          <li>Other than coding, I  also like reading and cooking and video games</li>
+          <li>Aspiring software engineer</li>
+          <li>Other than coding, I  also like reading, cooking and video games</li>
           <li>I also work out, mostly to stay sane</li>
           <li>Non-CS academic interests include physics and policymaking</li>
           <li>I tried (and failed) to publish a novel in 8th grade.</li>
@@ -20,7 +20,7 @@ export default function About() {
         <p className='mt-6'>
         I don&apos;t really know what else you want to know so here are some assorted favorites:
         </p>
-        <ul className='mt-3 space-y-1'>
+        <ul className='mt-3 space-y-1 bg-slate-600 p-4 rounded'>
           <li>
             <span className="font-bold">Food:</span> Those cheesy seafood casseroles you get at cheap chinese buffets
           </li>
