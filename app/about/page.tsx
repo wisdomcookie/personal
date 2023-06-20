@@ -16,6 +16,7 @@ export default function About() {
           <li>Non-CS academic interests include physics and policymaking</li>
           <li>I tried (and failed) to publish a novel in 8th grade.</li>
           <li>I used to know how to play guitar</li>
+          <li>You may want my <a href="https://drive.google.com/file/d/1xO1_wLNlJoyNQBvnhSB7pOG9ofZNNEd6/view?usp=sharing" target='_blank' className='font-bold'>Resume</a>, <a href="https://linkedin.com/in/nathan-dt" target='_blank' className='font-bold'>LinkedIn</a> or <a href="https://github.com/wisdomcookie" target='_blank' className='font-bold'>GitHub</a>.</li>
         </ul>
         <p className='mt-6'>
         I don&apos;t really know what else you want to know so here are some assorted favorites:
