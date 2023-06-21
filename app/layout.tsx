@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-800 min-h-screen font-mono">
+      <body className="bg-slate-800 min-h-screen font-sans">
         <Navbar/>
         <div >
           {children}

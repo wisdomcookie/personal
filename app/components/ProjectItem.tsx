@@ -26,15 +26,15 @@ export default function ProjectItem({ project }: Props) {
         {name}
       </h6>
       <div className='mb-1 flex space-x-2'>
-        <p className='font-light text-xl'>Link -&gt;</p>
+        <p className=' text-xl'>Link -&gt;</p>
         <a className='text-2xl' href={link} target='_blank'>
           {linkIcon}
         </a>
       </div>
-      <p className='mb-1 font-light text-l'>
+      <p className='mb-1 text-l'>
         Status: {status}
       </p>
-      <section className='text-l' 
+      <section className='text-l font-light' 
         dangerouslySetInnerHTML={{ __html:description }} />
     </li>
   )
