@@ -35,7 +35,7 @@ export default function About() {
             <span className="font-bold">Color</span>: Blue
           </li>
           <li>
-            <span className="font-bold">Movie</span>: Interstellar. Or Stuck in Love. Or Set it Up. I like a lot of rom-coms.
+            <span className="font-bold">Movie</span>: Interstellar.
           </li>
         </ul>
       
