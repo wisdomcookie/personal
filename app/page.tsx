@@ -11,7 +11,7 @@ export default function Home() {
         Hi! I&apos;m Nathan
       </p>
       <p className='mt-6 text-2xl text-center text-white/90'>
-        You may want my <a href="https://drive.google.com/file/d/1xO1_wLNlJoyNQBvnhSB7pOG9ofZNNEd6/view?usp=sharing" target='_blank' className='font-bold'>Resume</a>, <a href="https://linkedin.com/in/nathan-dt" target='_blank' className='font-bold'>LinkedIn</a> or <a href="https://github.com/wisdomcookie" target='_blank' className='font-bold'>GitHub</a>.
+        You may want my <a href="https://drive.google.com/file/d/1-W7b4yK79Zqfu7XlBSQ_kEkXcjko3SC-/view?usp=sharing" target='_blank' className='font-bold'>Resume</a>, <a href="https://linkedin.com/in/nathan-dt" target='_blank' className='font-bold'>LinkedIn</a> or <a href="https://github.com/wisdomcookie" target='_blank' className='font-bold'>GitHub</a>.
       </p>
     </main>
   )

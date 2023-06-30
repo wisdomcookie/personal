@@ -18,7 +18,7 @@ export default function About() {
           <li>I used to know how to play guitar</li>
         </ul>
         <p className='mt-3 text-l'>
-        You may want my <a href="https://drive.google.com/file/d/1xO1_wLNlJoyNQBvnhSB7pOG9ofZNNEd6/view?usp=sharing" target='_blank' className='font-bold'>Resume</a>, <a href="https://linkedin.com/in/nathan-dt" target='_blank' className='font-bold'>LinkedIn</a> or <a href="https://github.com/wisdomcookie" target='_blank' className='font-bold'>GitHub</a>.<br/>
+        You may want my <a href="https://drive.google.com/file/d/1-W7b4yK79Zqfu7XlBSQ_kEkXcjko3SC-/view?usp=sharing" target='_blank' className='font-bold'>Resume</a>, <a href="https://linkedin.com/in/nathan-dt" target='_blank' className='font-bold'>LinkedIn</a> or <a href="https://github.com/wisdomcookie" target='_blank' className='font-bold'>GitHub</a>.<br/>
         I don&apos;t really know what else you want to know so here are some assorted favorites:
         </p>
         <ul className='mt-3 text-l font-light space-y-1 bg-slate-600 p-4 rounded'>
