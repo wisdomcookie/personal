@@ -14,7 +14,7 @@ export default function About() {
           <li>Other than coding, I  also like reading, cooking and video games</li>
           <li>I also work out, mostly to stay sane</li>
           <li>Non-CS academic interests include physics and policymaking</li>
-          <li>I tried to publish a novel in 8th grade.</li>
+          <li>I tried to publish a novel in 8th grade</li>
           <li>I used to know how to play guitar</li>
         </ul>
         <p className='mt-3 text-l'>
@@ -35,7 +35,7 @@ export default function About() {
             <span className="font-bold">Color</span>: Blue
           </li>
           <li>
-            <span className="font-bold">Movie</span>: Interstellar.
+            <span className="font-bold">Movie</span>: Interstellar
           </li>
         </ul>
       
