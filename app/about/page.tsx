@@ -32,7 +32,7 @@ export default function About() {
             <span className="font-bold">Book</span>: The Martian by Andy Weir, or Best Served Cold by Joe Abercrombie
           </li>
           <li>
-            <span className="font-bold">Color</span>: Blue
+            <span className="font-bold">HTTP Response</span>: 410
           </li>
           <li>
             <span className="font-bold">Movie</span>: Interstellar
